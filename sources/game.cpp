@@ -3,8 +3,8 @@
 
 Game::Game(Player p1, Player p2)
 {
-    this->p1 = Player(p1.getName()); // this->p1 = 1 ??
-    this->p2 = Player(p2.getName());
+    this->p1 = p1; 
+    this->p2 = p2; 
 }
 
 void Game::playTurn()

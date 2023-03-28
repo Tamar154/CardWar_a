@@ -1,6 +1,7 @@
 #include "player.hpp"
 
-Player::Player(){
+Player::Player()
+{
     this->name = "";
 }
 
@@ -17,8 +18,4 @@ int Player::stacksize()
 int Player::cardesTaken()
 {
     return 1;
-}
-
-string Player::getName(){
-    return this->name;
 }

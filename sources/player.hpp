@@ -11,8 +11,6 @@ public:
     Player();
     Player(string);
 
-    string getName();
-
     int stacksize();
     int cardesTaken();
 };

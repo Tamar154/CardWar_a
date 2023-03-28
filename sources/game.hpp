@@ -1,6 +1,8 @@
 #pragma once
 
 #include "player.hpp"
+#include "card.hpp"
+
 using namespace std;
 
 namespace ariel
@@ -22,4 +24,5 @@ public:
     void printWiner();
     void printLog();
     void printStats();
+
 };
